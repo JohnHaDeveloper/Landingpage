@@ -1,5 +1,4 @@
-  
-  header {
+ header {
     background-color: #1F2937;
     padding: 20px;
     color: #fff;
@@ -111,13 +110,11 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 2rem;
-  max-width: 100%;
 }
 
 /* Style for the individual cards */
 .card {
-  width: 45%;
-  max-width: 300px;
+  width: calc(25% - 1rem);
   margin-bottom: 2rem;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
@@ -233,6 +230,3 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-
-
-  
