@@ -1,0 +1,236 @@
+  
+  header {
+    background-color: #1F2937;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+  }
+
+  /* Style for the welcome section */
+.welcome-section {
+  background-color: #1F2937;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Style for the welcome container */
+.welcome-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style for the welcome section heading */
+.welcome-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #F8FAF9;
+  font-weight: bold;
+}
+
+/* Style for the welcome section paragraph */
+.welcome-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #F8FAF9;
+}
+
+/* Style for the sign-up button */
+.sign-up-button {
+  background-color: #0066CC;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Style for the sign-up button on hover */
+.sign-up-button:hover {
+  background-color: #003366;
+}
+
+/* Style for the welcome section image */
+.welcome-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Style for the card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+/* Style for the individual cards */
+.card {
+  width: calc(25% - 1rem);
+  margin-bottom: 2rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Style for the card images */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Style for the card captions */
+.card-caption {
+  padding: 1rem;
+}
+
+.card-caption h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-caption p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.quote {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  text-align: center;
+  padding: 20px;
+  background-color: #E5E7EB;
+  border-left: 5px solid #555;
+  border-right: 5px solid #555;
+}
+
+.quote:before {
+  content: open-quote;
+  font-size: 60px;
+  line-height: 0.1em;
+  margin-right: 10px;
+  vertical-align: -0.4em;
+  color: #555;
+}
+
+.quote:after {
+  content: close-quote;
+  font-size: 60px;
+  line-height: 0.1em;
+  margin-left: 10px;
+  vertical-align: -0.4em;
+  color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .quote {
+    font-size: 20px;
+  }
+}
+
+.cta-section {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-container h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0062cc;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+  
